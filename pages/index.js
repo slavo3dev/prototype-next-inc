@@ -12,7 +12,8 @@ const Home = () => {
       <Layout>
         <Head>
           <title>
-            Software Web/Mobile Development - Consulting - FelpAPP
+            Software Web/Mobile Development - Consulting - FelpAPP -
+            Online Courses - Mentorship
           </title>
           <meta
             name="Learning and Building Web and Mobile Application"
@@ -42,8 +43,8 @@ const Home = () => {
                       , a Creative{" "}
                       <span className="typewrite d-inline text-brand">
                         <TextEffect
-                          text1="Web Agency"
-                          text2="Mentorship Agency"
+                          text1="Mentorship Program"
+                          text2="Career Consulting"
                           text3="Consulting Agency"
                         />
                       </span>
@@ -501,7 +502,7 @@ const Home = () => {
                       Phone
                     </span>
                     <p>
-                      <a href="tel:786-702-4261">+ 1 786-702-4261</a>
+                      <a href="tel:786-702-4261">+ 1 786-702-2331</a>
                     </p>
                     <p>
                       <a href="tel:305-560-0950">+ 1 305-560-0950</a>
@@ -530,8 +531,7 @@ const Home = () => {
                     <span className="text-sm text-blueGray-400">
                       E-mail
                     </span>
-                    <p>info@felpapp.com</p>
-                    <p>slavo@slavo3.com</p>
+                    <p>team@felpapp.com</p>
                   </div>
                 </div>
                 <div
