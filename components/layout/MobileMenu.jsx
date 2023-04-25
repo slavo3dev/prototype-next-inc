@@ -32,7 +32,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
               <a className="mr-auto text-3xl font-semibold leading-none">
                 <img
                   className="h-10"
-                  src="/assets/imgs/logos/felp_app.svg"
+                  src="/assets/imgs/logos/pn-logo.svg"
                   alt="Prototye.NEXT"
                 />
               </a>

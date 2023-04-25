@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
-          <link rel="icon" href="/assets/imgs/logos/felp_app.svg" />
+          <link rel="icon" href="/assets/imgs/logos/fpn-logo.svg" />
           <link
             href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
             rel="stylesheet"

@@ -15,7 +15,7 @@ const Footer = () => {
                 <a className="inline-block mx-auto lg:mx-0 text-3xl font-semibold leading-none">
                   <img
                     className="h-20"
-                    src={"/assets/imgs/logos/felp_app.svg"}
+                    src={"/assets/imgs/logos/pn-logo.svg"}
                     alt="Prototye.NEXT Logo"
                   />
                 </a>
