@@ -20,12 +20,15 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>felpApp - Change your Career Fast & Easy</title>
+        <title>
+          Prototye.NEXT Inc | Web & Mobile Software Development |
+          Custom Solutions for Businesses
+        </title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="icon"
           sizes="16x16"
-          href="/assets/logos/felpApp_logo.svg"
+          href="/assets/logos/Prototye.NEXT_logo.svg"
         />
         <link
           rel="preconnect"
@@ -45,18 +48,46 @@ const Layout = ({ children }) => {
         <script>new WOW().init();</script>
         <meta
           name="description"
-          content="felpApp - Software Development / Career Change "
+          content="Expert web and mobile software development services for businesses. Our skilled developers create custom, user-friendly applications tailored to your unique requirements. Get in touch for a free consultation today!"
         />
         <meta
-          name="og:title"
           property="og:title"
-          content="felpApp - Learn How To Create & Develop Software Web / Mobile Applications"
-        ></meta>
+          content="Web & Mobile Software Development | Custom Solutions for Businesses"
+        />
         <meta
-          name="twitter:card"
-          content="felpApp - Become Software Web Developer FreeLancer"
+          name="keywords"
+          content="software development, web development, mobile development, custom software, app development, mobile applications, web applications, business solutions"
+        />
+        <meta
+          property="og:image"
+          content="www.prototype.next/assets/imgs/icons/instagram-blue.svg"
+        />
+        <meta property="og:url" content="www.prototypenext.com" />
+        <meta property="og:type" content="website" />
+        <meta name="robots" content="index, follow"></meta>
+        <meta
+          property="og:site_name"
+          content="Prototype.NEXT Inc."
         ></meta>
-        <link rel="canonical" href="https://www.felpapp.com"></link>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Web & Mobile Software Development | Custom Solutions for Businesses"
+        />
+        <meta
+          name="twitter:description"
+          content="Expert web and mobile software development services for businesses. Our skilled developers create custom, user-friendly applications tailored to your unique requirements. Get in touch for a free consultation today!"
+        />
+        <meta
+          name="twitter:image"
+          content="URL-to-your-company-logo/image"
+        />
+        <meta name="twitter:site" content="@slavo3dev" />
+        <meta name="twitter:creator" content="@slavo3dev"></meta>
+        <link
+          rel="canonical"
+          href="https://www.prototyenext.com"
+        ></link>
       </Head>
       <div className="main font-body text-body">
         <Header handleHidden={handleHidden} />

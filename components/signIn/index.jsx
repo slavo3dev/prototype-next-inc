@@ -60,7 +60,7 @@ export const SignIn = () => {
           <h4 className="mb-6 text-2xl">Subscribe</h4>
           {state === "Success" ? (
             <p className="lg:text-xl text-blueGray-900">
-              Awesome, you have been subscribed to felpApp
+              Awesome, you have been subscribed to Prototye.NEXT
             </p>
           ) : (
             emailForm
@@ -94,7 +94,7 @@ export const SignIn = () => {
             Work & Learn & Grow
           </span>
           <h3 className="mb-4 text-4xl font-bold font-heading text-white">
-            felpApp Realtime Software Project.
+            Prototye.NEXT Realtime Software Project.
           </h3>
         </div>
         <div className="absolute right-0 bottom-0">

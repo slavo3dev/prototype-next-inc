@@ -9,7 +9,8 @@ const Services = () => {
       <Layout>
         <Head>
           <title>
-            Software Web/Mobile Development - Consulting - FelpAPP
+            Software Web/Mobile Development - Consulting -
+            Prototye.NEXT
           </title>
           <meta
             name="Learning and Building Web and Mobile Application"

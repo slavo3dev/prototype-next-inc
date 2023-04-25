@@ -28,8 +28,8 @@ const Header = ({ handleHidden }) => {
               <a className="text-3xl font-semibold leading-none">
                 <img
                   className="h-20"
-                  src="/assets/imgs/logos/felp_app.svg"
-                  alt="felpApp"
+                  src="/assets/imgs/logos/pn-logo.svg"
+                  alt="Prototye.NEXT"
                 />
               </a>
             </Link>
@@ -85,13 +85,13 @@ const Header = ({ handleHidden }) => {
                                     </a>
                                 </Link>
                             </li> */}
-              <li className="pt-4 pb-4">
+              {/* <li className="pt-4 pb-4">
                 <Link href="/services">
                   <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">
                     Services
                   </a>
                 </Link>
-              </li>
+              </li> */}
               {/* <li className="group relative pt-4 pb-4 has-child">
                                 <Link href="#">
                                     <a className="text-sm font-semibold text-blueGray-600 hover:text-blueGray-500">

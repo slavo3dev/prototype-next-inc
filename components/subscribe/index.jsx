@@ -72,7 +72,7 @@ export const Subscribe = () => {
           </p>
           {state === "Success" ? (
             <p className="lg:text-4xl text-blueGray-200">
-              Awesome, you have been subscribed to felpApp
+              Awesome, you have been subscribed to Prototye.NEXT
             </p>
           ) : (
             subscribeForm

@@ -16,7 +16,7 @@ const Footer = () => {
                   <img
                     className="h-20"
                     src={"/assets/imgs/logos/felp_app.svg"}
-                    alt="felpApp Logo"
+                    alt="Prototye.NEXT Logo"
                   />
                 </a>
               </Link>
@@ -63,11 +63,11 @@ const Footer = () => {
             <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
               <a
                 className="inline-block px-2"
-                href="https://www.facebook.com/felpapp"
+                href="https://www.facebook.com/Prototye.NEXT"
               >
                 <img
                   src={"/assets/imgs/icons/facebook-blue.svg"}
-                  alt="felpApp - Consulting "
+                  alt="Prototye.NEXT - Consulting "
                 />
               </a>
               <a
@@ -76,7 +76,7 @@ const Footer = () => {
               >
                 <img
                   src={"/assets/imgs/icons/twitter-blue.svg"}
-                  alt="felpApp - Consulting "
+                  alt="Prototye.NEXT - Consulting "
                 />
               </a>
               <a
@@ -85,16 +85,16 @@ const Footer = () => {
               >
                 <img
                   src={"/assets/imgs/icons/instagram-blue.svg"}
-                  alt="felpApp - Consulting "
+                  alt="Prototye.NEXT - Consulting "
                 />
               </a>
               <a
                 className="inline-block px-2"
-                href="https://www.instagram.com/felpapp/"
+                href="https://www.instagram.com/Prototye.NEXT/"
               >
                 <img
                   src={"/assets/imgs/icons/instagram-blue.svg"}
-                  alt="felpApp - Consulting "
+                  alt="Prototye.NEXT - Consulting "
                 />
               </a>
             </div>

@@ -33,7 +33,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                 <img
                   className="h-10"
                   src="/assets/imgs/logos/felp_app.svg"
-                  alt="felpApp"
+                  alt="Prototye.NEXT"
                 />
               </a>
             </Link>
@@ -64,13 +64,13 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                 }
                 onClick={() => handleToggle(1)}
               >
-                <span className="menu-expand">+</span>
+                {/* <span className="menu-expand">+</span> */}
                 <Link href="#">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">
                     Home
                   </a>
                 </Link>
-                <ul
+                {/* <ul
                   className={
                     isActive.key == 1 ? "dropdown pl-5" : "hidden"
                   }
@@ -110,58 +110,58 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                       </a>
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
-              <li className="mb-1 rounded-xl">
+              {/* <li className="mb-1 rounded-xl">
                 <Link href="/about">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500 rounded-xl">
                     About Us
                   </a>
                 </Link>
-              </li>
-              <li className="mb-1">
+              </li> */}
+              {/* <li className="mb-1">
                 <Link href="/services">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
                     Services
                   </a>
                 </Link>
-              </li>
-              <li className="mb-1">
+              </li> */}
+              {/* <li className="mb-1">
                 <Link href="/portfolio">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
                     Portfolio
                   </a>
                 </Link>
-              </li>
-              <li className="mb-1">
+              </li> */}
+              {/* <li className="mb-1">
                 <Link href="/pricing">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
                     Pricing
                   </a>
                 </Link>
-              </li>
-              <li className="mb-1">
+              </li> */}
+              {/* <li className="mb-1">
                 <Link href="/team">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
                     Team
                   </a>
                 </Link>
-              </li>
-              <li
+              </li> */}
+              {/* <li
                 className={
                   isActive.key == 2
                     ? "mb-1 menu-item-has-children rounded-xl active"
                     : "mb-1 menu-item-has-children rounded-xl"
                 }
                 onClick={() => handleToggle(2)}
-              >
-                <span className="menu-expand">+</span>
-                <Link href="#">
+              > */}
+              {/* <span className="menu-expand">+</span> */}
+              {/* <Link href="#">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
                     Blog
                   </a>
-                </Link>
-                <ul
+                </Link> */}
+              {/* <ul
                   className={
                     isActive.key == 2 ? "dropdown pl-5" : "hidden"
                   }
@@ -194,22 +194,22 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                       </a>
                     </Link>
                   </li>
-                </ul>
-              </li>
-              <li className="mb-1">
+                </ul> */}
+              {/* </li> */}
+              {/* <li className="mb-1">
                 <Link href="/faqs">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
                     Faqs
                   </a>
                 </Link>
-              </li>
-              <li className="mb-1">
+              </li> */}
+              {/* <li className="mb-1">
                 <Link href="/testimonials">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
                     Testimonial
                   </a>
                 </Link>
-              </li>
+              </li> */}
               <li className="mb-1">
                 <Link href="/contact">
                   <a className="block p-4 text-sm text-blueGray-500 hover:bg-blue-50 hover:text-blue-500">
@@ -218,7 +218,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                 </Link>
               </li>
             </ul>
-            <div className="mt-4 pt-6 border-t border-blueGray-100">
+            {/* <div className="mt-4 pt-6 border-t border-blueGray-100">
               <Link href="/signup">
                 <a className="block px-4 py-3 mb-3 text-xs text-center font-semibold leading-none bg-blue-400 hover:bg-blue-500 text-white rounded">
                   Sign Up
@@ -229,40 +229,51 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
                   Log In
                 </a>
               </Link>
-            </div>
+            </div> */}
           </div>
           <div className="mt-auto">
             <p className="my-4 text-xs text-blueGray-400">
               <span>Get in Touch</span>
               <span className="text-blue-500 hover:text-blue-500 underline">
-                contact@monst.com
+                {" "}
+                <a
+                  href="mailto:slavo@slavo.io"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  slavo@slavo.io
+                </a>
               </span>
             </p>
-            <a
+            {/* <a
               className="inline-block px-1"
               href="https://facebook.com"
             >
               <img
                 src="/assets/imgs/icons/facebook-blue.svg"
-                alt="Monst"
+                alt="Prototype.NEXT"
               />
-            </a>
+            </a> */}
             <a
               className="inline-block px-1"
-              href="https://twitter.com"
+              href="https://twitter.com/slavo3dev"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="/assets/imgs/icons/twitter-blue.svg"
-                alt="Monst"
+                alt="Prototype.NEXT"
               />
             </a>
             <a
               className="inline-block px-1"
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/prototypenext/"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="/assets/imgs/icons/instagram-blue.svg"
-                alt="Monst"
+                alt="Prototype.NEXT"
               />
             </a>
           </div>

@@ -9,7 +9,7 @@ const Contact = () => {
     <>
       <Layout>
         <Head>
-          <title>Contat us - FelpAPP</title>
+          <title>Contat us - Prototye.NEXT</title>
           <meta
             name="Learning and Building Web and Mobile Application"
             content="Become Software Developer / Conusling for Business and Startups"
@@ -33,7 +33,7 @@ const Contact = () => {
                     <p className="text-blueGray-400 leading-relaxed wow animate__animatedanimated animate__fadeIn">
                       We are{" "}
                       <strong className="text-blue-500">
-                        felpApp
+                        Prototye.NEXT
                       </strong>
                       , a Creative Design{" "}
                       <span className="typewrite d-inline text-brand">
