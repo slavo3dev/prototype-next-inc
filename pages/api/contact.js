@@ -3,14 +3,6 @@ import supabase from "@lib/supabase";
 export default async (req, res) => {
   const { subject, department, name, email, message } = req.body;
 
-  console.log("Contact Info: ", {
-    subject,
-    department,
-    name,
-    email,
-    message,
-  });
-
   if (req.method === "POST") {
     if (
       (!email || !email.includes("@") || !name || name.trim() === "",
