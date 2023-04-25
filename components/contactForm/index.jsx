@@ -3,9 +3,20 @@ import { storeData, notificationStatus } from "../../lib";
 import { Notification } from "../notification";
 
 export const ContactForm = () => {
-  const [payload, setPayload] = useState();
+  const [payload, setPayload] = useState({
+    email: "",
+    subject: "No Subject",
+    message: "No Message",
+    department: "",
+    name: "No Name",
+  });
   const [reqStatus, setReqStatus] = useState();
   const [reqError, setReqError] = useState();
+
+  const isValidEmail = (email) => {
+    const emailReg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;
+    return emailReg.test(email);
+  };
 
   useEffect(() => {
     if (reqStatus === "success" || reqStatus === "error") {
@@ -46,7 +57,7 @@ export const ContactForm = () => {
             className="mr-1"
             type="radio"
             name="department"
-            value="Mentor"
+            value="Consulting"
             onChange={(e) =>
               setPayload((prevState) => ({
                 ...prevState,
@@ -54,7 +65,7 @@ export const ContactForm = () => {
               }))
             }
           />
-          <span>Mentor</span>
+          <span>Consulting</span>
         </label>
         <label>
           <input
@@ -105,7 +116,14 @@ export const ContactForm = () => {
           </div>
           <div className="mb-4">
             <input
-              className="w-full p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
+              className="w-full p-4 text-xs font-semibold leading-none rounded outline-none bg-blueGray-50"
+              style={{
+                border: payload.email
+                  ? !isValidEmail(payload?.email)
+                    ? "1px solid red"
+                    : "none"
+                  : "none",
+              }}
               type="email"
               placeholder="name@example.com"
               onChange={(e) =>
@@ -164,10 +182,27 @@ export const ContactForm = () => {
         <button
           className="py-4 px-8 text-sm text-white font-semibold leading-none bg-blue-400 hover:bg-blue-500 rounded"
           // type="submit"
+          type="button"
           onClick={(e) => {
-            payload.terms === "accept"
+            payload?.terms === "accept" &&
+            isValidEmail(payload.email) &&
+            payload?.department
               ? sendPayload(e, payload)
-              : alert("Please, Mark Accept Terms Box!!");
+              : alert(
+                  `Please check: ${
+                    !isValidEmail(payload.email) &&
+                    "eMail is not Valid, "
+                  } ${
+                    payload.terms !== "accept"
+                      ? "You need to Accept Terms, "
+                      : ""
+                  }
+                  ${
+                    !payload.department
+                      ? "Please Choose Deparment"
+                      : ""
+                  }`,
+                );
           }}
         >
           Submit
