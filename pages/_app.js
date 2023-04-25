@@ -37,7 +37,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      {false ? (
+      {!loading ? (
         <>
           <Head>
             <meta
