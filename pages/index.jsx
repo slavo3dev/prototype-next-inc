@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Layout from "@components/layout/Layout";
 
 import {
@@ -17,7 +16,7 @@ const Home = () => {
       <Layout>
         <HeadComponent
           title={
-            "[LANDING PAGE] Software Web/Mobile Development & Consulting | AI Tools to scale your business"
+            "Software Web/Mobile Development & Consulting | AI Tools to scale your business"
           }
         />
         <Hero />

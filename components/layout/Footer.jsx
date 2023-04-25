@@ -23,8 +23,7 @@ const Footer = () => {
             </div>
             <div className="w-full lg:w-2/5 px-3 mb-8 lg:mb-0">
               <p className="max-w-md mx-auto lg:max-w-full lg:mx-0 lg:pr-32 lg:text-lg text-blueGray-400 leading-relaxed">
-                Helping you <strong>maximize</strong> your personal
-                growth!
+                Helping you <strong>Maximize</strong> your Growth!
               </p>
             </div>
             <div className="w-full lg:w-1/5 px-3 mb-8 lg:mb-0">
@@ -32,7 +31,7 @@ const Footer = () => {
                 Office
               </p>
               <p className="lg:text-lg text-blueGray-400">
-                151 SE 1st Street
+                55 NE 5th Street
                 <br /> Miami FL
               </p>
             </div>
@@ -44,32 +43,24 @@ const Footer = () => {
                 <a href="tel:786-702-4261">+1-786-702-4261</a>
               </p>
               <p className="lg:text-lg text-blueGray-400">
-                slavo@slavo3.com
+                slavo@slavo.io
               </p>
             </div>
           </div>
           <div className="flex flex-col lg:flex-row items-center lg:justify-between">
             <p className="text-sm text-blueGray-400">
-              &copy; 2022. All rights reserved. Designed by{" "}
+              &copy; {new Date().getFullYear()}. All rights reserved.
+              Designed by{" "}
               <a
                 className="text-blue-400"
-                href="https://www.prototypenext.com"
+                href="https://www.slavo.io"
                 target="_blank"
                 rel="noreferrer"
               >
-                Prototype.NEXT
+                Slavo
               </a>
             </p>
             <div className="order-first lg:order-last -mx-2 mb-4 lg:mb-0">
-              <a
-                className="inline-block px-2"
-                href="https://www.facebook.com/Prototye.NEXT"
-              >
-                <img
-                  src={"/assets/imgs/icons/facebook-blue.svg"}
-                  alt="Prototye.NEXT - Consulting "
-                />
-              </a>
               <a
                 className="inline-block px-2"
                 href="https://twitter.com/slavo3dev"
@@ -82,6 +73,8 @@ const Footer = () => {
               <a
                 className="inline-block px-2"
                 href="https://www.instagram.com/prototypenext/"
+                target="_blank"
+                rel="noreferrer"
               >
                 <img
                   src={"/assets/imgs/icons/instagram-blue.svg"}
@@ -90,10 +83,12 @@ const Footer = () => {
               </a>
               <a
                 className="inline-block px-2"
-                href="https://www.instagram.com/Prototye.NEXT/"
+                href="https://www.facebook.com/prototyenext"
+                target="_blank"
+                rel="noreferrer"
               >
                 <img
-                  src={"/assets/imgs/icons/instagram-blue.svg"}
+                  src={"/assets/imgs/icons/facebook-blue.svg"}
                   alt="Prototye.NEXT - Consulting "
                 />
               </a>
