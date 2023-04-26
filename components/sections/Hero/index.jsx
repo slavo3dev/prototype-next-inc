@@ -21,7 +21,7 @@ export const Hero = () => {
                 <p className="text-blueGray-400 leading-relaxed wow animate__animated animate__fadeIn">
                   We are{" "}
                   <strong className="text-blue-500">
-                    Prototye.NEXT
+                    Prototype.NEXT
                   </strong>
                   , Innovate, Integrate, and Elevate{" "}
                   <span className="typewrite d-inline text-brand">
