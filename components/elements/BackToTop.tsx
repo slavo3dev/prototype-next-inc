@@ -1,9 +1,12 @@
 import ScrollToTop from "react-scroll-up";
 import React from "react";
 
+// react-scroll-up's own types conflict with this project's React types, cast to bypass
+const ScrollToTopAny = ScrollToTop as any;
+
 export default function BackToTop() {
   return (
-    <ScrollToTop showUnder={160}>
+    <ScrollToTopAny showUnder={160}>
       <a id="scrollUp">
         <svg
           className="w-4 h-4"
@@ -20,6 +23,6 @@ export default function BackToTop() {
           ></path>
         </svg>
       </a>
-    </ScrollToTop>
+    </ScrollToTopAny>
   );
 }

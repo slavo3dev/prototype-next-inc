@@ -21,7 +21,7 @@ const Home = () => {
         />
         <Hero />
         <InfoBanner />
-        <Subscribe bgColor={"bg-blueGray-100"} />
+        <Subscribe />
         <InfoBannerB />
         <InfoBannerC />
         <ContactBanner />

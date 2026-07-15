@@ -610,7 +610,7 @@ const Testimonials = () => {
                         type="radio"
                         name="department"
                         value="1"
-                        checked=""
+                        checked={false}
                       />
                       <span>Support</span>
                     </label>

@@ -1,3 +1,9 @@
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+  }
+}
+
 // log the pageview with their URL
 export const pageview = (url) => {
   window.gtag("config", process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS, {

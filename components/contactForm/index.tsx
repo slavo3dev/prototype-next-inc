@@ -9,9 +9,10 @@ export const ContactForm = () => {
     message: "No Message",
     department: "",
     name: "No Name",
+    terms: "",
   });
-  const [reqStatus, setReqStatus] = useState();
-  const [reqError, setReqError] = useState();
+  const [reqStatus, setReqStatus] = useState<string | null>(null);
+  const [reqError, setReqError] = useState<string | null>(null);
 
   const isValidEmail = (email) => {
     const emailReg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;

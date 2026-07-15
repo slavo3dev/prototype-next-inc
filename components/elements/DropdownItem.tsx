@@ -1,5 +1,4 @@
 import React from "react";
-import { Collapse } from "react-collapse";
 
 class DropdownItem extends React.Component {
   //   state = {

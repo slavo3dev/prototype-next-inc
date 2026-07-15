@@ -147,20 +147,14 @@ const Signup = () => {
                 <p className="my-6 text-xs text-blueGray-400 text-center font-semibold">
                   or continue with
                 </p>
-                <button
-                  className="transition duration-300 ease-in-out transform hover:-translate-y-1 flex items-center w-full px-4 py-3 mb-2 text-xs text-blueGray-500 font-semibold leading-none border border-gray-200 hover:bg-blueGray-50 rounded"
-                  href="#"
-                >
+                <button className="transition duration-300 ease-in-out transform hover:-translate-y-1 flex items-center w-full px-4 py-3 mb-2 text-xs text-blueGray-500 font-semibold leading-none border border-gray-200 hover:bg-blueGray-50 rounded">
                   <img
                     className="h-6 pr-10"
                     src="/assets/imgs/logos/facebook-sign.svg"
                   />
                   <span>Sign Up with Facebook</span>
                 </button>
-                <button
-                  className="transition duration-300 ease-in-out transform hover:-translate-y-1 flex items-center px-4 py-3 w-full text-xs text-blueGray-500 font-semibold leading-none border border-gray-200 hover:bg-blueGray-50 rounded"
-                  href="#"
-                >
+                <button className="transition duration-300 ease-in-out transform hover:-translate-y-1 flex items-center px-4 py-3 w-full text-xs text-blueGray-500 font-semibold leading-none border border-gray-200 hover:bg-blueGray-50 rounded">
                   <img
                     className="h-6 pr-10"
                     src="/assets/imgs/logos/google-sign.svg"

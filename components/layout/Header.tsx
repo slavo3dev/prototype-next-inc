@@ -4,7 +4,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 const Header = ({ handleHidden }) => {
-  const [scroll, setScroll] = useState(0);
+  const [scroll, setScroll] = useState<number | boolean>(0);
   useEffect(() => {
     document.addEventListener("scroll", () => {
       const scrollCheck = window.scrollY > 100;

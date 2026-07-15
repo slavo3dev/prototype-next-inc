@@ -10,7 +10,7 @@ const About = () => {
         <section className="relative -mt-24 pt-24">
           <div
             className="hidden lg:block absolute inset-0 w-1/2 ml-auto bg-blueGray-100 z-0"
-            style={{ "z-index": "-1" }}
+            style={{ zIndex: -1 }}
           ></div>
           <div className="container">
             <div className="flex flex-wrap items-center -mx-3">
@@ -495,7 +495,7 @@ const About = () => {
                         type="radio"
                         name="department"
                         value="1"
-                        checked=""
+                        checked={false}
                       />
                       <span>Support</span>
                     </label>

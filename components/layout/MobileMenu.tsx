@@ -3,7 +3,10 @@ import Link from "next/link";
 
 // eslint-disable-next-line react/prop-types
 const MobileMenu = ({ hiddenClass, handleRemove }) => {
-  const [isActive, setIsActive] = useState({
+  const [isActive, setIsActive] = useState<{
+    status: boolean;
+    key: string | number;
+  }>({
     status: false,
     key: "",
   });
@@ -12,6 +15,7 @@ const MobileMenu = ({ hiddenClass, handleRemove }) => {
     if (isActive.key === key) {
       setIsActive({
         status: false,
+        key: "",
       });
     } else {
       setIsActive({

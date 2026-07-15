@@ -1,4 +1,9 @@
-export const notificationStatus = (reqStatus) => {
+export const notificationStatus = (
+  reqStatus?: string | null,
+):
+  | ""
+  | { status: string; title: string; message: string }
+  | undefined => {
   if (!reqStatus) {
     return "";
   }
