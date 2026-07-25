@@ -56,3 +56,5 @@ See `/docs` for the current source of truth:
 - `TECHNICAL-PRINCIPLES.md`
 
 AI coding agents should read `AGENTS.md` before making changes.
+
+www.slavo.io
